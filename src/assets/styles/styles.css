@@ -33,8 +33,9 @@
 
 html,
 body,
-.max,.root {
-    width: 100%;
+.max,
+.root {
+    width: 100dvw;
     height: 100dvh;
 }
 
@@ -202,8 +203,10 @@ hr {
         p {
             display: -webkit-box;
             -webkit-line-clamp: 1;
-            -moz-line-clamp: 1; /* Mozilla browsers */
-  line-clamp: 1; /* Standard property for compatibility */
+            -moz-line-clamp: 1;
+            /* Mozilla browsers */
+            line-clamp: 1;
+            /* Standard property for compatibility */
             /* number of lines to show */
             -webkit-box-orient: vertical;
             overflow: hidden;
@@ -244,8 +247,10 @@ hr {
         p {
             display: -webkit-box;
             -webkit-line-clamp: 1;
-            -moz-line-clamp: 1; /* Mozilla browsers */
-  line-clamp: 1; /* Standard property for compatibility */
+            -moz-line-clamp: 1;
+            /* Mozilla browsers */
+            line-clamp: 1;
+            /* Standard property for compatibility */
             /* number of lines to show */
             -webkit-box-orient: vertical;
             overflow: hidden;
